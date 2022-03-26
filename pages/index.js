@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+$ sh <(curl -fsSL https://raw.githubusercontent.com/parse-community/parse-server/master/bootstrap.sh)
+$ npm install -g mongodb-runner
+$ mongodb-runner start
+$ npm start
 
 export default function Home() {
   return (
